@@ -35,7 +35,11 @@
 //run the init function when the page loads.
 window.onload = init;
 
+<<<<<<< HEAD
 // Runs when the page is loaded 
+=======
+
+>>>>>>> master
 function init() {
       var calcButtons = document.getElementsByClassName("calcButton");
       for (var i = 0; i < calcButtons.length; i++) {
@@ -43,7 +47,11 @@ function init() {
       }
       document.getElementById("calcWindow").onkeydown = calcKeys;
 }
+<<<<<<< HEAD
 // The purpose of this function is to change what appears in the calculator window when the user clicks the calculator buttons.
+=======
+
+>>>>>>> master
 function buttonClick(e) {
       var calcValue = document.getElementById("calcWindow").value;
       var calcDecimal = document.getElementById("decimals").value;
@@ -69,7 +77,11 @@ function buttonClick(e) {
       document.getElementById("calcWindow").value = calcValue;
       document.getElementById("calcWindow").focus();
 }
+<<<<<<< HEAD
 // Theresa wants you to program the actions that will happen when the user presses the Delete, Enter, and up arrow keys
+=======
+
+>>>>>>> master
 function calcKeys(e) {
       var calcValue = document.getElementById("calcWindow").value;
       var calcDecimal = document.getElementById("decimals").value;
